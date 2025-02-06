@@ -13,7 +13,7 @@ var localesFS embed.FS
 
 var (
 	translations = make(map[string]map[string]string)
-	defaultLang  = "en"
+	defaultLang  = "ru"
 	ContextKey   = "i18n"
 )
 
